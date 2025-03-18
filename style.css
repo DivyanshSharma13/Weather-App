@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Martel Sans", serif;
+  font-style: inherit;
+}
+
+body,
+html {
+  background-image: url(assets/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container{
+    background: transparent;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.weather {
+  margin-top: 40px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.name {
+  background: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+}
+.name i {
+  background: none;
+  cursor: pointer;
+  outline: none;background-color: none;
+}
+
+.name input {
+  border: none;
+  outline: none;
+  width: 500px;
+  font-size: 22px;
+}
+
+.temp img{
+    cursor: pointer;
+}
+.info{
+    margin-top: 35px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding:40px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 646px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 50px 70px -30px, rgba(10, 37, 64, 0.35) 0px -3px 6px 0px inset;
+}
+.city{
+    font-size: 40px;
+    font-weight: 800; 
+}
+.temp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* text-align: center; */
+    font-size: 55px;
+    font-weight: 900; 
+    color: rgb(84, 126, 231);
+}
+.date{
+    border-radius: 15px; 
+    padding: 15px 25px; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    width:646px;
+    font-family: "Martel Sans", serif;
+    text-align: center;
+    color: black;
+}
